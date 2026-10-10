@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "locations": [
+    {
+      "location_id": "RACK-A",
+      "type": "rack_block",
+      "capacity_pallets": 280
+    },
+    {
+      "location_id": "RACK-B",
+      "type": "rack_block",
+      "capacity_pallets": 280
+    },
+    {
+      "location_id": "RACK-C",
+      "type": "rack_block",
+      "capacity_pallets": 280
+    },
+    {
+      "location_id": "RACK-D",
+      "type": "rack_block",
+      "capacity_pallets": 280
+    },
+    {
+      "location_id": "RACK-E",
+      "type": "rack_block",
+      "capacity_pallets": 280
+    },
+    {
+      "location_id": "RACK-F",
+      "type": "rack_block",
+      "capacity_pallets": 280
+    },
+    {
+      "location_id": "FG-BUFFER",
+      "type": "floor_buffer",
+      "capacity_pallets": 120
+    },
+    {
+      "location_id": "MIXED-PICK",
+      "type": "picking_zone",
+      "capacity_pallets": 24
+    },
+    {
+      "location_id": "ML-01",
+      "type": "marshalling_lane",
+      "capacity_pallets": 16
+    },
+    {
+      "location_id": "ML-02",
+      "type": "marshalling_lane",
+      "capacity_pallets": 16
+    },
+    {
+      "location_id": "ML-03",
+      "type": "marshalling_lane",
+      "capacity_pallets": 16
+    },
+    {
+      "location_id": "ML-04",
+      "type": "marshalling_lane",
+      "capacity_pallets": 16
+    },
+    {
+      "location_id": "ML-05",
+      "type": "marshalling_lane",
+      "capacity_pallets": 16
+    },
+    {
+      "location_id": "ML-06",
+      "type": "marshalling_lane",
+      "capacity_pallets": 16
+    }
+  ]
+}

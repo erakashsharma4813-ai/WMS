@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "as_of": "2026-10-08T06:00:00+05:30",
+  "stock": [
+    {
+      "product_group_id": "BRAKE-ASSEMBLY",
+      "location_id": "RACK-A",
+      "pallets": 168
+    },
+    {
+      "product_group_id": "STEERING-PARTS",
+      "location_id": "RACK-B",
+      "pallets": 151
+    },
+    {
+      "product_group_id": "SUSPENSION-KIT",
+      "location_id": "RACK-C",
+      "pallets": 144
+    },
+    {
+      "product_group_id": "FASTENER-MIX",
+      "location_id": "RACK-E",
+      "pallets": 96
+    },
+    {
+      "product_group_id": "SERVICE-PARTS",
+      "location_id": "RACK-F",
+      "pallets": 82
+    },
+    {
+      "product_group_id": "BRAKE-ASSEMBLY",
+      "location_id": "FG-BUFFER",
+      "pallets": 35
+    },
+    {
+      "product_group_id": "STEERING-PARTS",
+      "location_id": "FG-BUFFER",
+      "pallets": 31
+    },
+    {
+      "product_group_id": "SUSPENSION-KIT",
+      "location_id": "FG-BUFFER",
+      "pallets": 29
+    }
+  ],
+  "fg_buffer_summary": {
+    "occupied_pallets": 95,
+    "capacity_pallets": 120,
+    "occupancy_percentage": 79.2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "site_name": "Synthetic Automotive Components Dispatch Centre",
+  "data_classification": "synthetic_demo_data",
+  "timezone": "Asia/Kolkata",
+  "operating_model": "24x6 production with outbound dispatch peaks",
+  "forecast_business_date": "2026-10-13",
+  "detailed_historical_reference_date": "2026-10-08",
+  "assumptions": [
+    "All people, shipments, products, transporters and operating results are synthetic.",
+    "Picking and putaway share three reach trucks.",
+    "The evening dispatch peak begins at approximately 16:00.",
+    "Putaway receives priority when the finished-goods buffer exceeds 85 percent occupancy.",
+    "Picking is released when a truck reports at the gate in the baseline policy."
+  ]
+}

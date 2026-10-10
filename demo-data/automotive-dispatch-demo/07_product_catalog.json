@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "product_groups": [
+    {
+      "product_group_id": "BRAKE-ASSEMBLY",
+      "storage_zone": "RACK-A",
+      "pick_profile": "full_pallet",
+      "units_per_pallet": 24
+    },
+    {
+      "product_group_id": "STEERING-PARTS",
+      "storage_zone": "RACK-B",
+      "pick_profile": "full_pallet",
+      "units_per_pallet": 20
+    },
+    {
+      "product_group_id": "SUSPENSION-KIT",
+      "storage_zone": "RACK-C",
+      "pick_profile": "full_pallet",
+      "units_per_pallet": 16
+    },
+    {
+      "product_group_id": "FASTENER-MIX",
+      "storage_zone": "RACK-E",
+      "pick_profile": "mixed_pallet",
+      "units_per_pallet": 120
+    },
+    {
+      "product_group_id": "SERVICE-PARTS",
+      "storage_zone": "RACK-F",
+      "pick_profile": "mixed_pallet",
+      "units_per_pallet": 80
+    }
+  ]
+}

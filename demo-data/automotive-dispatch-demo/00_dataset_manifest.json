@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "AUTOMOTIVE-DISPATCH-DEMO-V1",
+  "title": "Synthetic automotive warehouse dispatch demonstration data",
+  "classification": "synthetic_demo_data",
+  "files": [
+    {
+      "file": "01_site_profile.json",
+      "content": "Site identity, dates and assumptions"
+    },
+    {
+      "file": "02_warehouse_layout.json",
+      "content": "Exact 2D geometry used by simulation and visualisation"
+    },
+    {
+      "file": "03_warehouse_layout.png",
+      "content": "Human-readable plan rendered from the geometry"
+    },
+    {
+      "file": "04_resource_catalog.json",
+      "content": "Mobile equipment, docks and labour pools"
+    },
+    {
+      "file": "05_shift_calendars.json",
+      "content": "Staffing, shifts, breaks and equipment availability"
+    },
+    {
+      "file": "06_operating_rules.json",
+      "content": "Dispatch and warehouse policies"
+    },
+    {
+      "file": "07_product_catalog.json",
+      "content": "Synthetic product families and storage profiles"
+    },
+    {
+      "file": "08_storage_locations.json",
+      "content": "Capacities of racks, buffers and marshalling lanes"
+    },
+    {
+      "file": "09_initial_inventory.json",
+      "content": "Reference-day opening stock and buffer state"
+    },
+    {
+      "file": "10_transporters.json",
+      "content": "Synthetic transporter arrival behaviour"
+    },
+    {
+      "file": "11_historical_daily_summary.json",
+      "content": "Fourteen days of aggregate operating history"
+    },
+    {
+      "file": "12_historical_shipments.json",
+      "content": "Detailed shipments for the reference day"
+    },
+    {
+      "file": "13_historical_warehouse_tasks.json",
+      "content": "Detailed picking and putaway tasks"
+    },
+    {
+      "file": "14_historical_event_log.json",
+      "content": "Canonical timestamped operational events"
+    },
+    {
+      "file": "15_tomorrow_shipment_plan.json",
+      "content": "Forecast-day shipment plan"
+    },
+    {
+      "file": "16_forecast_start_state.json",
+      "content": "Warehouse state at forecast start"
+    },
+    {
+      "file": "17_demo_scenarios.json",
+      "content": "Baseline and three what-if policies"
+    },
+    {
+      "file": "18_data_quality_summary.json",
+      "content": "Synthetic-data validation and intended demo signal"
+    }
+  ]
+}

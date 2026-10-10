@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "period": {
+    "start": "2026-09-25",
+    "end": "2026-10-08"
+  },
+  "days": [
+    {
+      "date": "2026-09-25",
+      "shipments": 15,
+      "outbound_pallets": 270,
+      "putaway_pallets": 74,
+      "average_turnaround_minutes": 79,
+      "p90_turnaround_minutes": 123,
+      "peak_hour": "17:00-18:00"
+    },
+    {
+      "date": "2026-09-26",
+      "shipments": 22,
+      "outbound_pallets": 418,
+      "putaway_pallets": 85,
+      "average_turnaround_minutes": 95,
+      "p90_turnaround_minutes": 148,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-09-27",
+      "shipments": 0,
+      "outbound_pallets": 0,
+      "putaway_pallets": 0,
+      "average_turnaround_minutes": null,
+      "p90_turnaround_minutes": null,
+      "peak_hour": null
+    },
+    {
+      "date": "2026-09-28",
+      "shipments": 18,
+      "outbound_pallets": 378,
+      "putaway_pallets": 107,
+      "average_turnaround_minutes": 100,
+      "p90_turnaround_minutes": 156,
+      "peak_hour": "17:00-18:00"
+    },
+    {
+      "date": "2026-09-29",
+      "shipments": 16,
+      "outbound_pallets": 288,
+      "putaway_pallets": 79,
+      "average_turnaround_minutes": 90,
+      "p90_turnaround_minutes": 140,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-09-30",
+      "shipments": 23,
+      "outbound_pallets": 437,
+      "putaway_pallets": 90,
+      "average_turnaround_minutes": 79,
+      "p90_turnaround_minutes": 123,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-10-01",
+      "shipments": 21,
+      "outbound_pallets": 420,
+      "putaway_pallets": 101,
+      "average_turnaround_minutes": 95,
+      "p90_turnaround_minutes": 148,
+      "peak_hour": "17:00-18:00"
+    },
+    {
+      "date": "2026-10-02",
+      "shipments": 19,
+      "outbound_pallets": 399,
+      "putaway_pallets": 112,
+      "average_turnaround_minutes": 84,
+      "p90_turnaround_minutes": 132,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-10-03",
+      "shipments": 17,
+      "outbound_pallets": 306,
+      "putaway_pallets": 84,
+      "average_turnaround_minutes": 100,
+      "p90_turnaround_minutes": 156,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-10-04",
+      "shipments": 0,
+      "outbound_pallets": 0,
+      "putaway_pallets": 0,
+      "average_turnaround_minutes": null,
+      "p90_turnaround_minutes": null,
+      "peak_hour": null
+    },
+    {
+      "date": "2026-10-05",
+      "shipments": 22,
+      "outbound_pallets": 440,
+      "putaway_pallets": 106,
+      "average_turnaround_minutes": 79,
+      "p90_turnaround_minutes": 123,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-10-06",
+      "shipments": 20,
+      "outbound_pallets": 420,
+      "putaway_pallets": 78,
+      "average_turnaround_minutes": 95,
+      "p90_turnaround_minutes": 148,
+      "peak_hour": "16:00-17:00"
+    },
+    {
+      "date": "2026-10-07",
+      "shipments": 18,
+      "outbound_pallets": 324,
+      "putaway_pallets": 89,
+      "average_turnaround_minutes": 84,
+      "p90_turnaround_minutes": 132,
+      "peak_hour": "17:00-18:00"
+    },
+    {
+      "date": "2026-10-08",
+      "shipments": 16,
+      "outbound_pallets": 304,
+      "putaway_pallets": 100,
+      "average_turnaround_minutes": 119,
+      "p90_turnaround_minutes": 185,
+      "peak_hour": "16:00-17:00"
+    }
+  ]
+}

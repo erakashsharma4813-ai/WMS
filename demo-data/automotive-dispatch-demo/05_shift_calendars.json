@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "weekly_calendar": {
+    "operating_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "closed_days": [
+      "Sunday"
+    ]
+  },
+  "shifts": [
+    {
+      "shift_id": "SHIFT-A",
+      "start": "06:00",
+      "end": "14:00",
+      "headcount": {
+        "pickers": 4,
+        "loading_gangs": 2,
+        "gate_clerks": 1,
+        "dispatch_clerks": 1
+      },
+      "breaks": [
+        {
+          "start": "10:00",
+          "end": "10:30",
+          "coverage_percentage": 50
+        }
+      ]
+    },
+    {
+      "shift_id": "SHIFT-B",
+      "start": "14:00",
+      "end": "22:00",
+      "headcount": {
+        "pickers": 5,
+        "loading_gangs": 3,
+        "gate_clerks": 2,
+        "dispatch_clerks": 1
+      },
+      "breaks": [
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "coverage_percentage": 50
+        }
+      ]
+    },
+    {
+      "shift_id": "SHIFT-C",
+      "start": "22:00",
+      "end": "06:00",
+      "headcount": {
+        "pickers": 2,
+        "loading_gangs": 1,
+        "gate_clerks": 1,
+        "dispatch_clerks": 1
+      },
+      "breaks": [
+        {
+          "start": "02:00",
+          "end": "02:30",
+          "coverage_percentage": 50
+        }
+      ]
+    }
+  ],
+  "equipment_calendars": [
+    {
+      "resource_ids": [
+        "RT-01",
+        "RT-02",
+        "RT-03",
+        "FL-01",
+        "FL-02"
+      ],
+      "available": "00:00-24:00",
+      "planned_checks": [
+        {
+          "start": "05:30",
+          "end": "06:00"
+        }
+      ]
+    }
+  ]
+}

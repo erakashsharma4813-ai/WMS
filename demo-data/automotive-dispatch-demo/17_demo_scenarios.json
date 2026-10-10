@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "scenarios": [
+    {
+      "scenario_id": "BASELINE",
+      "name": "Current operating policy",
+      "description": "Picking starts only when each truck reports. Reach trucks remain shared with putaway.",
+      "overrides": {}
+    },
+    {
+      "scenario_id": "PREPICK-HIGH-PRIORITY",
+      "name": "Pre-pick high-priority shipments",
+      "description": "Release high-priority shipment picking four hours before planned reporting.",
+      "overrides": {
+        "picking_release": {
+          "policy": "planned_release",
+          "applies_to_priority": [
+            "high"
+          ],
+          "lead_time_minutes": 240
+        }
+      }
+    },
+    {
+      "scenario_id": "RESERVE-REACH-TRUCK",
+      "name": "Reserve one reach truck for picking",
+      "description": "RT-02 serves only picking during the evening peak.",
+      "overrides": {
+        "resource_reservations": [
+          {
+            "resource_id": "RT-02",
+            "task_type": "picking",
+            "start": "15:30",
+            "end": "19:30"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "FLATTEN-ARRIVALS",
+      "name": "Transporter reporting windows",
+      "description": "Move four planned trucks out of the 16:00 to 18:00 peak.",
+      "overrides": {
+        "shipment_time_adjustments": [
+          {
+            "shipment_id": "PLAN-013",
+            "minutes": -90
+          },
+          {
+            "shipment_id": "PLAN-014",
+            "minutes": -60
+          },
+          {
+            "shipment_id": "PLAN-016",
+            "minutes": 75
+          },
+          {
+            "shipment_id": "PLAN-017",
+            "minutes": 90
+          }
+        ]
+      }
+    }
+  ]
+}

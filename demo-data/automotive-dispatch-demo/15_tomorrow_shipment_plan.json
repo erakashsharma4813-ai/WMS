@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "plan_date": "2026-10-13",
+  "shipments": [
+    {
+      "shipment_id": "PLAN-001",
+      "transporter_id": "TR-A",
+      "truck_type": "40FT",
+      "planned_reporting_at": "2026-10-13T06:45:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T10:45:00+05:30",
+        "end": "2026-10-13T12:45:00+05:30"
+      },
+      "pallet_count": 14,
+      "full_pallets": 11,
+      "mixed_pallets": 3,
+      "priority": "normal",
+      "required_dock_type": "long_vehicle"
+    },
+    {
+      "shipment_id": "PLAN-002",
+      "transporter_id": "TR-B",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T07:30:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T11:30:00+05:30",
+        "end": "2026-10-13T13:30:00+05:30"
+      },
+      "pallet_count": 21,
+      "full_pallets": 17,
+      "mixed_pallets": 4,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-003",
+      "transporter_id": "TR-C",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T08:20:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T12:20:00+05:30",
+        "end": "2026-10-13T14:20:00+05:30"
+      },
+      "pallet_count": 28,
+      "full_pallets": 23,
+      "mixed_pallets": 5,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-004",
+      "transporter_id": "TR-D",
+      "truck_type": "20FT",
+      "planned_reporting_at": "2026-10-13T09:50:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T13:50:00+05:30",
+        "end": "2026-10-13T15:50:00+05:30"
+      },
+      "pallet_count": 19,
+      "full_pallets": 13,
+      "mixed_pallets": 6,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-005",
+      "transporter_id": "TR-A",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T11:15:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T15:15:00+05:30",
+        "end": "2026-10-13T17:15:00+05:30"
+      },
+      "pallet_count": 26,
+      "full_pallets": 19,
+      "mixed_pallets": 7,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-006",
+      "transporter_id": "TR-B",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T12:30:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T16:30:00+05:30",
+        "end": "2026-10-13T18:30:00+05:30"
+      },
+      "pallet_count": 17,
+      "full_pallets": 14,
+      "mixed_pallets": 3,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-007",
+      "transporter_id": "TR-C",
+      "truck_type": "20FT",
+      "planned_reporting_at": "2026-10-13T13:20:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T17:20:00+05:30",
+        "end": "2026-10-13T19:20:00+05:30"
+      },
+      "pallet_count": 24,
+      "full_pallets": 20,
+      "mixed_pallets": 4,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-008",
+      "transporter_id": "TR-D",
+      "truck_type": "40FT",
+      "planned_reporting_at": "2026-10-13T14:10:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T18:10:00+05:30",
+        "end": "2026-10-13T20:10:00+05:30"
+      },
+      "pallet_count": 15,
+      "full_pallets": 10,
+      "mixed_pallets": 5,
+      "priority": "normal",
+      "required_dock_type": "long_vehicle"
+    },
+    {
+      "shipment_id": "PLAN-009",
+      "transporter_id": "TR-A",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T14:50:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T18:50:00+05:30",
+        "end": "2026-10-13T20:50:00+05:30"
+      },
+      "pallet_count": 22,
+      "full_pallets": 16,
+      "mixed_pallets": 6,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-010",
+      "transporter_id": "TR-B",
+      "truck_type": "20FT",
+      "planned_reporting_at": "2026-10-13T15:20:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T19:20:00+05:30",
+        "end": "2026-10-13T21:20:00+05:30"
+      },
+      "pallet_count": 29,
+      "full_pallets": 22,
+      "mixed_pallets": 7,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-011",
+      "transporter_id": "TR-C",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T15:45:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T19:45:00+05:30",
+        "end": "2026-10-13T21:45:00+05:30"
+      },
+      "pallet_count": 20,
+      "full_pallets": 17,
+      "mixed_pallets": 3,
+      "priority": "high",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-012",
+      "transporter_id": "TR-D",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T16:05:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T20:05:00+05:30",
+        "end": "2026-10-13T22:05:00+05:30"
+      },
+      "pallet_count": 27,
+      "full_pallets": 23,
+      "mixed_pallets": 4,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-013",
+      "transporter_id": "TR-A",
+      "truck_type": "20FT",
+      "planned_reporting_at": "2026-10-13T16:25:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T20:25:00+05:30",
+        "end": "2026-10-13T22:25:00+05:30"
+      },
+      "pallet_count": 18,
+      "full_pallets": 13,
+      "mixed_pallets": 5,
+      "priority": "high",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-014",
+      "transporter_id": "TR-B",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T16:45:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T20:45:00+05:30",
+        "end": "2026-10-13T22:45:00+05:30"
+      },
+      "pallet_count": 25,
+      "full_pallets": 19,
+      "mixed_pallets": 6,
+      "priority": "high",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-015",
+      "transporter_id": "TR-C",
+      "truck_type": "40FT",
+      "planned_reporting_at": "2026-10-13T17:05:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T21:05:00+05:30",
+        "end": "2026-10-13T23:05:00+05:30"
+      },
+      "pallet_count": 16,
+      "full_pallets": 9,
+      "mixed_pallets": 7,
+      "priority": "normal",
+      "required_dock_type": "long_vehicle"
+    },
+    {
+      "shipment_id": "PLAN-016",
+      "transporter_id": "TR-D",
+      "truck_type": "20FT",
+      "planned_reporting_at": "2026-10-13T17:25:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T21:25:00+05:30",
+        "end": "2026-10-13T23:25:00+05:30"
+      },
+      "pallet_count": 23,
+      "full_pallets": 20,
+      "mixed_pallets": 3,
+      "priority": "high",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-017",
+      "transporter_id": "TR-A",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T17:50:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T21:50:00+05:30",
+        "end": "2026-10-13T23:50:00+05:30"
+      },
+      "pallet_count": 14,
+      "full_pallets": 10,
+      "mixed_pallets": 4,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-018",
+      "transporter_id": "TR-B",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T18:20:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T22:20:00+05:30",
+        "end": "2026-10-14T00:20:00+05:30"
+      },
+      "pallet_count": 21,
+      "full_pallets": 16,
+      "mixed_pallets": 5,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-019",
+      "transporter_id": "TR-C",
+      "truck_type": "20FT",
+      "planned_reporting_at": "2026-10-13T19:10:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-13T23:10:00+05:30",
+        "end": "2026-10-14T01:10:00+05:30"
+      },
+      "pallet_count": 28,
+      "full_pallets": 22,
+      "mixed_pallets": 6,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-020",
+      "transporter_id": "TR-D",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T20:15:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-14T00:15:00+05:30",
+        "end": "2026-10-14T02:15:00+05:30"
+      },
+      "pallet_count": 19,
+      "full_pallets": 12,
+      "mixed_pallets": 7,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    },
+    {
+      "shipment_id": "PLAN-021",
+      "transporter_id": "TR-A",
+      "truck_type": "32FT",
+      "planned_reporting_at": "2026-10-13T21:05:00+05:30",
+      "delivery_window": {
+        "start": "2026-10-14T01:05:00+05:30",
+        "end": "2026-10-14T03:05:00+05:30"
+      },
+      "pallet_count": 26,
+      "full_pallets": 23,
+      "mixed_pallets": 3,
+      "priority": "normal",
+      "required_dock_type": "standard"
+    }
+  ]
+}

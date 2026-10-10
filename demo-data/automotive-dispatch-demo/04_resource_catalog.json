@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "equipment": [
+    {
+      "resource_id": "RT-01",
+      "type": "reach_truck",
+      "status": "available",
+      "loaded_speed_mps": 1.7,
+      "empty_speed_mps": 2.2,
+      "pickup_seconds": 55,
+      "drop_seconds": 45,
+      "home_zone": "FG-BUFFER"
+    },
+    {
+      "resource_id": "RT-02",
+      "type": "reach_truck",
+      "status": "available",
+      "loaded_speed_mps": 1.6,
+      "empty_speed_mps": 2.1,
+      "pickup_seconds": 60,
+      "drop_seconds": 45,
+      "home_zone": "FG-BUFFER"
+    },
+    {
+      "resource_id": "RT-03",
+      "type": "reach_truck",
+      "status": "available",
+      "loaded_speed_mps": 1.5,
+      "empty_speed_mps": 2,
+      "pickup_seconds": 60,
+      "drop_seconds": 50,
+      "home_zone": "FG-BUFFER"
+    },
+    {
+      "resource_id": "FL-01",
+      "type": "forklift",
+      "status": "available",
+      "loaded_speed_mps": 2,
+      "empty_speed_mps": 2.6,
+      "pickup_seconds": 45,
+      "drop_seconds": 40,
+      "home_zone": "MARSHALLING"
+    },
+    {
+      "resource_id": "FL-02",
+      "type": "forklift",
+      "status": "available",
+      "loaded_speed_mps": 1.9,
+      "empty_speed_mps": 2.5,
+      "pickup_seconds": 45,
+      "drop_seconds": 40,
+      "home_zone": "MARSHALLING"
+    },
+    {
+      "resource_id": "WB-01",
+      "type": "weighbridge",
+      "status": "available"
+    }
+  ],
+  "fixed_resources": [
+    {
+      "resource_id": "GATE-LANE-01",
+      "type": "gate_lane",
+      "capacity": 1
+    },
+    {
+      "resource_id": "GATE-LANE-02",
+      "type": "gate_lane",
+      "capacity": 1
+    },
+    {
+      "resource_id": "D01",
+      "type": "dock_door",
+      "capacity": 1
+    },
+    {
+      "resource_id": "D02",
+      "type": "dock_door",
+      "capacity": 1
+    },
+    {
+      "resource_id": "D03",
+      "type": "dock_door",
+      "capacity": 1
+    },
+    {
+      "resource_id": "D04",
+      "type": "dock_door",
+      "capacity": 1
+    }
+  ],
+  "labour_pools": [
+    {
+      "pool_id": "PICKERS",
+      "type": "picker"
+    },
+    {
+      "pool_id": "LOAD-GANGS",
+      "type": "loading_gang"
+    },
+    {
+      "pool_id": "GATE-CLERKS",
+      "type": "gate_clerk"
+    },
+    {
+      "pool_id": "DISPATCH-CLERKS",
+      "type": "dispatch_clerk"
+    }
+  ]
+}

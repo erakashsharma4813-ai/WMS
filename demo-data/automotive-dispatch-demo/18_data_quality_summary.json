@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "AUTOMOTIVE-DISPATCH-DEMO-V1",
+  "generated_at": "2026-10-10T12:00:00+05:30",
+  "classification": "fully_synthetic",
+  "checks": [
+    {
+      "check": "unique shipment IDs",
+      "status": "pass",
+      "records_checked": 20
+    },
+    {
+      "check": "unique warehouse task IDs",
+      "status": "pass",
+      "records_checked": 82
+    },
+    {
+      "check": "unique event IDs",
+      "status": "pass",
+      "records_checked": 506
+    },
+    {
+      "check": "truck event chronological order",
+      "status": "pass",
+      "records_checked": 20
+    },
+    {
+      "check": "task start is after task creation",
+      "status": "pass",
+      "records_checked": 82
+    },
+    {
+      "check": "task completion is after task start",
+      "status": "pass",
+      "records_checked": 82
+    },
+    {
+      "check": "known resource references",
+      "status": "pass",
+      "records_checked": 82
+    },
+    {
+      "check": "known layout location references",
+      "status": "pass_with_note",
+      "note": "Marshalling lane IDs and rack blocks are modelled at zone level for this first demo."
+    }
+  ],
+  "intended_demo_signal": {
+    "period": "16:00-19:00",
+    "issue": "Picking waits increase because picking and putaway compete for three reach trucks while the FG buffer approaches its priority threshold.",
+    "candidate_levers": [
+      "Pre-pick high-priority shipments",
+      "Reserve one reach truck for picking",
+      "Flatten transporter reporting times"
+    ],
+    "warning": "The demo application must calculate outcome KPIs. No scenario result is pre-baked in this dataset."
+  }
+}

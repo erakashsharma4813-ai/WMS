@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "as_of": "2026-10-13T00:00:00+05:30",
+  "fg_buffer": {
+    "occupied_pallets": 101,
+    "capacity_pallets": 120,
+    "occupancy_percentage": 84.2
+  },
+  "unfinished_picking_tasks": 2,
+  "unfinished_putaway_tasks": 7,
+  "trucks_inside_site": [],
+  "resource_exceptions": [
+    {
+      "resource_id": "RT-03",
+      "unavailable_from": "2026-10-13T09:30:00+05:30",
+      "unavailable_to": "2026-10-13T11:00:00+05:30",
+      "reason": "planned battery maintenance"
+    }
+  ]
+}

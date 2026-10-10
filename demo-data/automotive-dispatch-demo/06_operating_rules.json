@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "picking_release": {
+    "policy": "truck_reported_at_gate"
+  },
+  "marshalling": {
+    "dedicated_lane_per_shipment": true,
+    "lane_capacity_pallets": 16,
+    "overflow_allowed": false
+  },
+  "dock_call": {
+    "required_conditions": [
+      "compatible_dock_available",
+      "loading_gang_available",
+      "pallet_ready_share_met"
+    ],
+    "minimum_pallet_ready_share": 0.6
+  },
+  "shared_reach_truck_policy": {
+    "applies_to": [
+      "picking",
+      "putaway"
+    ],
+    "normal_priority": [
+      "picking",
+      "putaway"
+    ],
+    "buffer_override": {
+      "when_fg_buffer_occupancy_gte": 0.85,
+      "priority": [
+        "putaway",
+        "picking"
+      ]
+    },
+    "preemption": false
+  },
+  "loading": {
+    "forklift_required": true,
+    "loading_gang_required": true,
+    "documents_can_start_after_loaded_share": 0.8
+  },
+  "queue_disciplines": {
+    "gate": "first_in_first_out",
+    "picking": "shipment_priority_then_due_time",
+    "dock": "delivery_window_then_ready_time"
+  },
+  "end_of_day": {
+    "force_completion_at_midnight": false,
+    "report_unfinished_work": true
+  }
+}

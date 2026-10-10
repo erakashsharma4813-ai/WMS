@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "transporters": [
+    {
+      "transporter_id": "TR-A",
+      "display_name": "Transporter A",
+      "historical_mean_arrival_offset_minutes": 12,
+      "historical_stddev_minutes": 18
+    },
+    {
+      "transporter_id": "TR-B",
+      "display_name": "Transporter B",
+      "historical_mean_arrival_offset_minutes": 26,
+      "historical_stddev_minutes": 24
+    },
+    {
+      "transporter_id": "TR-C",
+      "display_name": "Transporter C",
+      "historical_mean_arrival_offset_minutes": -4,
+      "historical_stddev_minutes": 15
+    },
+    {
+      "transporter_id": "TR-D",
+      "display_name": "Transporter D",
+      "historical_mean_arrival_offset_minutes": 18,
+      "historical_stddev_minutes": 21
+    }
+  ]
+}

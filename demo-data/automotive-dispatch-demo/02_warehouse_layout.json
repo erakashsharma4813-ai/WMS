@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "coordinate_system": {
+    "origin": "south-west corner of warehouse plot",
+    "units": "metres",
+    "x_direction": "east",
+    "y_direction": "north"
+  },
+  "plot": {
+    "width_m": 120,
+    "height_m": 80
+  },
+  "zones": [
+    {
+      "zone_id": "PRODUCTION-OUT",
+      "name": "Production output",
+      "type": "production_output",
+      "x": 4,
+      "y": 5,
+      "width": 20,
+      "height": 13,
+      "capacity_pallets": 30
+    },
+    {
+      "zone_id": "FG-BUFFER",
+      "name": "Finished-goods buffer",
+      "type": "buffer",
+      "x": 4,
+      "y": 23,
+      "width": 20,
+      "height": 18,
+      "capacity_pallets": 120
+    },
+    {
+      "zone_id": "MIXED-PICK",
+      "name": "Mixed-pallet picking",
+      "type": "picking",
+      "x": 4,
+      "y": 46,
+      "width": 20,
+      "height": 12,
+      "capacity_pallets": 24
+    },
+    {
+      "zone_id": "GATE",
+      "name": "Gate and security",
+      "type": "gate",
+      "x": 4,
+      "y": 64,
+      "width": 16,
+      "height": 10,
+      "capacity_trucks": 2
+    },
+    {
+      "zone_id": "HOLDING-YARD",
+      "name": "Truck holding yard",
+      "type": "yard",
+      "x": 24,
+      "y": 64,
+      "width": 27,
+      "height": 10,
+      "capacity_trucks": 8
+    },
+    {
+      "zone_id": "MARSHALLING",
+      "name": "Marshalling lanes",
+      "type": "staging",
+      "x": 55,
+      "y": 54,
+      "width": 48,
+      "height": 10,
+      "capacity_pallets": 96
+    },
+    {
+      "zone_id": "DOCK-APRON",
+      "name": "Dock apron",
+      "type": "dock_apron",
+      "x": 55,
+      "y": 66,
+      "width": 48,
+      "height": 9,
+      "capacity_trucks": 4
+    }
+  ],
+  "rack_blocks": [
+    {
+      "rack_id": "RACK-A",
+      "name": "Rack block A",
+      "x": 32,
+      "y": 8,
+      "width": 28,
+      "height": 8,
+      "levels": 5,
+      "pallet_positions": 280
+    },
+    {
+      "rack_id": "RACK-B",
+      "name": "Rack block B",
+      "x": 32,
+      "y": 21,
+      "width": 28,
+      "height": 8,
+      "levels": 5,
+      "pallet_positions": 280
+    },
+    {
+      "rack_id": "RACK-C",
+      "name": "Rack block C",
+      "x": 70,
+      "y": 8,
+      "width": 28,
+      "height": 8,
+      "levels": 5,
+      "pallet_positions": 280
+    },
+    {
+      "rack_id": "RACK-D",
+      "name": "Rack block D",
+      "x": 70,
+      "y": 21,
+      "width": 28,
+      "height": 8,
+      "levels": 5,
+      "pallet_positions": 280
+    },
+    {
+      "rack_id": "RACK-E",
+      "name": "Rack block E",
+      "x": 32,
+      "y": 34,
+      "width": 28,
+      "height": 8,
+      "levels": 5,
+      "pallet_positions": 280
+    },
+    {
+      "rack_id": "RACK-F",
+      "name": "Rack block F",
+      "x": 70,
+      "y": 34,
+      "width": 28,
+      "height": 8,
+      "levels": 5,
+      "pallet_positions": 280
+    }
+  ],
+  "docks": [
+    {
+      "dock_id": "D01",
+      "x": 57,
+      "y": 66,
+      "width": 9,
+      "height": 4,
+      "supported_truck_types": [
+        "20FT",
+        "32FT"
+      ]
+    },
+    {
+      "dock_id": "D02",
+      "x": 68,
+      "y": 66,
+      "width": 9,
+      "height": 4,
+      "supported_truck_types": [
+        "20FT",
+        "32FT"
+      ]
+    },
+    {
+      "dock_id": "D03",
+      "x": 79,
+      "y": 66,
+      "width": 9,
+      "height": 4,
+      "supported_truck_types": [
+        "20FT",
+        "32FT",
+        "40FT"
+      ]
+    },
+    {
+      "dock_id": "D04",
+      "x": 90,
+      "y": 66,
+      "width": 9,
+      "height": 4,
+      "supported_truck_types": [
+        "20FT",
+        "32FT",
+        "40FT"
+      ]
+    }
+  ],
+  "marshalling_lanes": [
+    {
+      "lane_id": "ML-01",
+      "x": 57,
+      "y": 56,
+      "width": 6,
+      "height": 6,
+      "capacity_pallets": 16
+    },
+    {
+      "lane_id": "ML-02",
+      "x": 64.4,
+      "y": 56,
+      "width": 6,
+      "height": 6,
+      "capacity_pallets": 16
+    },
+    {
+      "lane_id": "ML-03",
+      "x": 71.8,
+      "y": 56,
+      "width": 6,
+      "height": 6,
+      "capacity_pallets": 16
+    },
+    {
+      "lane_id": "ML-04",
+      "x": 79.2,
+      "y": 56,
+      "width": 6,
+      "height": 6,
+      "capacity_pallets": 16
+    },
+    {
+      "lane_id": "ML-05",
+      "x": 86.6,
+      "y": 56,
+      "width": 6,
+      "height": 6,
+      "capacity_pallets": 16
+    },
+    {
+      "lane_id": "ML-06",
+      "x": 94,
+      "y": 56,
+      "width": 6,
+      "height": 6,
+      "capacity_pallets": 16
+    }
+  ],
+  "travel_nodes": [
+    {
+      "node_id": "N-PROD",
+      "x": 25,
+      "y": 12
+    },
+    {
+      "node_id": "N-BUFFER",
+      "x": 25,
+      "y": 32
+    },
+    {
+      "node_id": "N-RACK-W",
+      "x": 28,
+      "y": 30
+    },
+    {
+      "node_id": "N-RACK-M",
+      "x": 65,
+      "y": 30
+    },
+    {
+      "node_id": "N-RACK-E",
+      "x": 103,
+      "y": 30
+    },
+    {
+      "node_id": "N-MARSHAL",
+      "x": 105,
+      "y": 59
+    },
+    {
+      "node_id": "N-DOCK",
+      "x": 105,
+      "y": 70
+    },
+    {
+      "node_id": "N-GATE",
+      "x": 20,
+      "y": 69
+    },
+    {
+      "node_id": "N-YARD",
+      "x": 51,
+      "y": 69
+    }
+  ],
+  "travel_edges": [
+    {
+      "from": "N-PROD",
+      "to": "N-BUFFER",
+      "distance_m": 20,
+      "direction": "both"
+    },
+    {
+      "from": "N-BUFFER",
+      "to": "N-RACK-W",
+      "distance_m": 6,
+      "direction": "both"
+    },
+    {
+      "from": "N-RACK-W",
+      "to": "N-RACK-M",
+      "distance_m": 37,
+      "direction": "both"
+    },
+    {
+      "from": "N-RACK-M",
+      "to": "N-RACK-E",
+      "distance_m": 38,
+      "direction": "both"
+    },
+    {
+      "from": "N-RACK-E",
+      "to": "N-MARSHAL",
+      "distance_m": 29,
+      "direction": "both"
+    },
+    {
+      "from": "N-MARSHAL",
+      "to": "N-DOCK",
+      "distance_m": 11,
+      "direction": "both"
+    },
+    {
+      "from": "N-GATE",
+      "to": "N-YARD",
+      "distance_m": 31,
+      "direction": "east_only"
+    },
+    {
+      "from": "N-YARD",
+      "to": "N-DOCK",
+      "distance_m": 54,
+      "direction": "east_only"
+    }
+  ]
+}
