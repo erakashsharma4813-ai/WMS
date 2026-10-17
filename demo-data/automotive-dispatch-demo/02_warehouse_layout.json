@@ -60,17 +60,17 @@
       "y": 64,
       "width": 27,
       "height": 10,
-      "capacity_trucks": 8
+      "capacity_trucks": 16
     },
     {
       "zone_id": "MARSHALLING",
       "name": "Marshalling lanes",
       "type": "staging",
       "x": 55,
-      "y": 54,
+      "y": 52,
       "width": 48,
-      "height": 10,
-      "capacity_pallets": 96
+      "height": 8,
+      "capacity_pallets": 220
     },
     {
       "zone_id": "DOCK-APRON",
@@ -80,7 +80,17 @@
       "y": 66,
       "width": 48,
       "height": 9,
-      "capacity_trucks": 4
+      "capacity_trucks": 6
+    },
+    {
+      "zone_id": "PRESTAGE",
+      "name": "Pre-stage area",
+      "type": "staging",
+      "x": 30,
+      "y": 50,
+      "width": 21,
+      "height": 9,
+      "capacity_pallets": 300
     }
   ],
   "rack_blocks": [
@@ -148,9 +158,9 @@
   "docks": [
     {
       "dock_id": "D01",
-      "x": 57,
+      "x": 55.5,
       "y": 66,
-      "width": 9,
+      "width": 7,
       "height": 4,
       "supported_truck_types": [
         "20FT",
@@ -159,9 +169,9 @@
     },
     {
       "dock_id": "D02",
-      "x": 68,
+      "x": 63.5,
       "y": 66,
-      "width": 9,
+      "width": 7,
       "height": 4,
       "supported_truck_types": [
         "20FT",
@@ -170,9 +180,9 @@
     },
     {
       "dock_id": "D03",
-      "x": 79,
+      "x": 71.5,
       "y": 66,
-      "width": 9,
+      "width": 7,
       "height": 4,
       "supported_truck_types": [
         "20FT",
@@ -182,9 +192,33 @@
     },
     {
       "dock_id": "D04",
-      "x": 90,
+      "x": 79.5,
       "y": 66,
-      "width": 9,
+      "width": 7,
+      "height": 4,
+      "supported_truck_types": [
+        "20FT",
+        "32FT",
+        "40FT"
+      ]
+    },
+    {
+      "dock_id": "D05",
+      "x": 87.5,
+      "y": 66,
+      "width": 7,
+      "height": 4,
+      "supported_truck_types": [
+        "20FT",
+        "32FT",
+        "40FT"
+      ]
+    },
+    {
+      "dock_id": "D06",
+      "x": 95.5,
+      "y": 66,
+      "width": 7,
       "height": 4,
       "supported_truck_types": [
         "20FT",
@@ -196,51 +230,83 @@
   "marshalling_lanes": [
     {
       "lane_id": "ML-01",
-      "x": 57,
-      "y": 56,
-      "width": 6,
+      "x": 55.6,
+      "y": 53,
+      "width": 4.2,
       "height": 6,
-      "capacity_pallets": 16
+      "capacity_pallets": 22
     },
     {
       "lane_id": "ML-02",
-      "x": 64.4,
-      "y": 56,
-      "width": 6,
+      "x": 60.4,
+      "y": 53,
+      "width": 4.2,
       "height": 6,
-      "capacity_pallets": 16
+      "capacity_pallets": 22
     },
     {
       "lane_id": "ML-03",
-      "x": 71.8,
-      "y": 56,
-      "width": 6,
+      "x": 65.2,
+      "y": 53,
+      "width": 4.2,
       "height": 6,
-      "capacity_pallets": 16
+      "capacity_pallets": 22
     },
     {
       "lane_id": "ML-04",
-      "x": 79.2,
-      "y": 56,
-      "width": 6,
+      "x": 70.0,
+      "y": 53,
+      "width": 4.2,
       "height": 6,
-      "capacity_pallets": 16
+      "capacity_pallets": 22
     },
     {
       "lane_id": "ML-05",
-      "x": 86.6,
-      "y": 56,
-      "width": 6,
+      "x": 74.8,
+      "y": 53,
+      "width": 4.2,
       "height": 6,
-      "capacity_pallets": 16
+      "capacity_pallets": 22
     },
     {
       "lane_id": "ML-06",
-      "x": 94,
-      "y": 56,
-      "width": 6,
+      "x": 79.6,
+      "y": 53,
+      "width": 4.2,
       "height": 6,
-      "capacity_pallets": 16
+      "capacity_pallets": 22
+    },
+    {
+      "lane_id": "ML-07",
+      "x": 84.4,
+      "y": 53,
+      "width": 4.2,
+      "height": 6,
+      "capacity_pallets": 22
+    },
+    {
+      "lane_id": "ML-08",
+      "x": 89.2,
+      "y": 53,
+      "width": 4.2,
+      "height": 6,
+      "capacity_pallets": 22
+    },
+    {
+      "lane_id": "ML-09",
+      "x": 94.0,
+      "y": 53,
+      "width": 4.2,
+      "height": 6,
+      "capacity_pallets": 22
+    },
+    {
+      "lane_id": "ML-10",
+      "x": 98.8,
+      "y": 53,
+      "width": 4.2,
+      "height": 6,
+      "capacity_pallets": 22
     }
   ],
   "travel_nodes": [

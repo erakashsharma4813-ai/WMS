@@ -1,0 +1,31 @@
+{
+  "id": "dock_station",
+  "family": "fixture",
+  "version": 2,
+  "notes": "Dock door: insulated wall panels, foam shelter with guide stripes and slit head curtain, leveller with lip and toe guards, ribbed sectional door with vision windows, traffic light with visors, LED floodlight, wheel guides, bollards, chock. Origin on the outside wall face at yard level; outward is +Z.",
+  "reference": "3.0 x 3.1 m door, 1.2 m dock, 2.0 m leveller",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/dock_station.glb",
+  "budget": {
+    "class": "Fixture",
+    "maxTriangles": 3000,
+    "maxMaterials": 10
+  },
+  "parts": [
+    "door",
+    "leveller",
+    "signal_red",
+    "signal_green"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "signal_"
+  ],
+  "states": {
+    "open": "door rises and compresses while a truck is docked",
+    "occupied": "signal_red lit, else signal_green"
+  },
+  "engine": {
+    "slabHeightMetres": 1.2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "pallet_full",
+  "version": 1,
+  "glb": "public/models/pallet_full.glb",
+  "glbBytes": 16152,
+  "triangles": 260,
+  "maxTriangles": 500,
+  "materials": [
+    "kraft",
+    "tint",
+    "wood",
+    "wrap"
+  ],
+  "nodes": [
+    "pallet_full",
+    "root__kraft",
+    "root__tint",
+    "root__wood",
+    "root__wrap"
+  ],
+  "sizeMetres": {
+    "x": 1.23,
+    "y": 1.14,
+    "z": 0.83
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/pallet_full.png"
+}

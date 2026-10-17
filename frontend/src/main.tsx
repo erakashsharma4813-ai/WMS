@@ -1,0 +1,17 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+import App from "./App";
+import { VisitorGate } from "./VisitorGate";
+import "./styles.css";
+import "./platform.css";
+import "./industrial.css";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <VisitorGate>
+      <App />
+    </VisitorGate>
+  </React.StrictMode>,
+);
+

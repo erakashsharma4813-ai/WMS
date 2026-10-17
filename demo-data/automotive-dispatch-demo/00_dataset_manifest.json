@@ -75,6 +75,18 @@
     {
       "file": "18_data_quality_summary.json",
       "content": "Synthetic-data validation and intended demo signal"
+    },
+    {
+      "file": "19_production_availability.json",
+      "content": "Production lines, progressive pallet batches, quality-release timing and planned production exceptions"
+    },
+    {
+      "file": "20_engine_site.json",
+      "content": "Engine site file and model card: every number the simulation uses, with kind, source and status; stress points; costs"
+    },
+    {
+      "file": "21_sap_day_2026-10-06.json",
+      "content": "Dummy SAP export of the reference day (64 trucks): shipments, deliveries, vehicles, report times"
     }
   ]
 }

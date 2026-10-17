@@ -1,0 +1,23 @@
+{
+  "id": "barrier",
+  "family": "fixture",
+  "version": 2,
+  "notes": "Boom barrier: cabinet with door and vents, red/white aluminium boom with LEDs and rubber skirt, fixed boom rest at 4 m; the arm points +X and lifts about local Z.",
+  "reference": "4.5 m boom at 0.95 m",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/barrier.glb",
+  "budget": {
+    "class": "Fixture",
+    "maxTriangles": 3000,
+    "maxMaterials": 10
+  },
+  "parts": [
+    "arm"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [],
+  "states": {
+    "open": "arm.rotation.z = 1.42 x lift"
+  },
+  "engine": {}
+}

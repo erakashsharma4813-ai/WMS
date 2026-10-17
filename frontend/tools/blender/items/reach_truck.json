@@ -1,0 +1,50 @@
+{
+  "id": "reach_truck",
+  "family": "warehouse-vehicle",
+  "version": 2,
+  "notes": "Electric reach truck: rounded chassis, battery tower, side-seated operator, 2.25 m overhead guard, straddle legs with load-wheel pockets; forks point +X; the reach carriage moves the mast forward.",
+  "reference": "Linde R14-class: chassis 1.27 m wide, overhead guard 2.25 m, forks 1.15 m, load wheels 0.22 m",
+  "options": [
+    "opt_cabin",
+    "opt_camera"
+  ],
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/reach_truck.glb",
+  "budget": {
+    "class": "Vehicle",
+    "maxTriangles": 5000,
+    "maxMaterials": 8
+  },
+  "parts": [
+    "reach",
+    "mast_outer",
+    "mast_inner",
+    "carriage",
+    "beacon",
+    "wheel_drive",
+    "wheel_caster",
+    "wheel_load_l",
+    "wheel_load_r"
+  ],
+  "sockets": [
+    "load_socket"
+  ],
+  "perInstanceMaterials": [
+    "livery",
+    "beacon"
+  ],
+  "states": {
+    "moving": "wheels spin, beacon pulses, blue spot ahead",
+    "lifting": "carriage.y = lift; mast_inner.y = clamp(lift - 1.6, 0, 3.3)",
+    "reaching": "reach.x += 0.78 x reach",
+    "loaded": "pallet attached at load_socket",
+    "blocked": "status ring red"
+  },
+  "engine": {
+    "speedMps": 2.2,
+    "loadedSpeedMps": 1.7,
+    "pickupSeconds": 55,
+    "dropSeconds": 45,
+    "maxLiftMetres": 6.0
+  }
+}

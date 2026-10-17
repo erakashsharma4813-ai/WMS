@@ -1,0 +1,45 @@
+{
+  "id": "worker",
+  "version": 1,
+  "glb": "public/models/worker.glb",
+  "glbBytes": 22400,
+  "triangles": 308,
+  "maxTriangles": 800,
+  "materials": [
+    "hivis",
+    "navy",
+    "reflect",
+    "rubber",
+    "skin",
+    "tint_hat"
+  ],
+  "nodes": [
+    "arm_l",
+    "arm_l__hivis",
+    "arm_l__navy",
+    "arm_l__skin",
+    "arm_r",
+    "arm_r__hivis",
+    "arm_r__navy",
+    "arm_r__skin",
+    "leg_l",
+    "leg_l__navy",
+    "leg_l__rubber",
+    "leg_r",
+    "leg_r__navy",
+    "leg_r__rubber",
+    "root__hivis",
+    "root__reflect",
+    "root__skin",
+    "root__tint_hat",
+    "worker"
+  ],
+  "sizeMetres": {
+    "x": 0.33,
+    "y": 1.83,
+    "z": 0.62
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/worker.png"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gatehouse",
+  "family": "fixture",
+  "version": 2,
+  "notes": "Security booth (solid dado, ribbon glazing, door, AC unit, intercom, bollards) under the lane canopy that spans both gate lanes.",
+  "reference": "2.2 x 1.3 m booth, 6.3 x 10 m canopy at 5.5 m",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/gatehouse.glb",
+  "budget": {
+    "class": "Fixture",
+    "maxTriangles": 3000,
+    "maxMaterials": 10
+  },
+  "parts": [],
+  "sockets": [],
+  "perInstanceMaterials": [],
+  "states": {},
+  "engine": {}
+}

@@ -6,5 +6,16 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+node_modules/
+dist/
+*.tsbuildinfo
+.chrome-qa*/
+dispatch-twin-preview*.png
 .vscode/
 .idea/
+
+# raw Blender builds (optimised copies live in frontend/public/models)
+frontend/tools/blender/out/
+
+# visitor sign-in log (personal data, stays on the server)
+backend/data/visitors.xlsx

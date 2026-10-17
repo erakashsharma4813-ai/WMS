@@ -1,0 +1,36 @@
+{
+  "id": "tractor",
+  "family": "truck",
+  "version": 2,
+  "notes": "6x4 tractor of the 40 ft articulated truck: sleeper cab with fixed roof deflector and side extenders, exhaust stack, catwalk, coiled lines, horseshoe fifth wheel at x = -1.6.",
+  "reference": "Signa 4825.TK-class tractor: 2.44 m cab, front axle 1.15 m behind the bumper, tandem drive 1.35 m apart",
+  "options": [
+    "opt_visor",
+    "opt_lamps"
+  ],
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/tractor.glb",
+  "budget": {
+    "class": "Large vehicle",
+    "maxTriangles": 8000,
+    "maxMaterials": 10
+  },
+  "parts": [
+    "wheel_f_l",
+    "wheel_f_r",
+    "wheel_r0_l",
+    "wheel_r0_r",
+    "wheel_r1_l",
+    "wheel_r1_r"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "livery"
+  ],
+  "states": {
+    "moving": "wheel_* spin"
+  },
+  "engine": {
+    "kingpinOffsetMetres": 1.6
+  }
+}

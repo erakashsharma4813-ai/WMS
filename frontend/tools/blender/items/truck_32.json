@@ -1,0 +1,45 @@
+{
+  "id": "truck_32",
+  "family": "truck",
+  "version": 2,
+  "notes": "32 ft rigid box truck, heavy sleeper cab, tandem dual-tyre rear axles.",
+  "reference": "Tata Signa / Ashok Leyland 6x2-class: 2.44 m wide cab (Signa 3521.T spec sheet), 3.1 m roof, front overhang 1.3 m, tyres 1.0 m diameter",
+  "options": [
+    "opt_visor",
+    "opt_lamps",
+    "opt_horns",
+    "opt_deflector"
+  ],
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/truck_32.glb",
+  "budget": {
+    "class": "Large vehicle",
+    "maxTriangles": 8000,
+    "maxMaterials": 10
+  },
+  "parts": [
+    "shell_node",
+    "door_l",
+    "door_r",
+    "wheel_f_l",
+    "wheel_f_r",
+    "wheel_r0_l",
+    "wheel_r0_r",
+    "wheel_r1_l",
+    "wheel_r1_r"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "livery",
+    "shell"
+  ],
+  "states": {
+    "moving": "wheel_* spin",
+    "docked": "doors open, shell ghosts",
+    "blocked": "status ring red"
+  },
+  "engine": {
+    "lengthMetres": 11.6,
+    "deckHeightMetres": 1.2
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "pallet_truck",
+  "family": "warehouse-vehicle",
+  "version": 2,
+  "notes": "Electric rider pallet truck: rounded drive unit, fold-down platform with side guard arms, tiller with butterfly head, 1.17 m forks with load rollers.",
+  "reference": "Linde T20 SP-class: 0.79 m drive unit, forks 1.15 m x 0.17 m, lowered height 0.085 m",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/pallet_truck.glb",
+  "budget": {
+    "class": "Vehicle",
+    "maxTriangles": 5000,
+    "maxMaterials": 8
+  },
+  "parts": [
+    "forks",
+    "tiller",
+    "beacon",
+    "wheel_drive"
+  ],
+  "sockets": [
+    "load_socket"
+  ],
+  "perInstanceMaterials": [
+    "livery",
+    "beacon"
+  ],
+  "states": {
+    "moving": "wheel spins",
+    "loaded": "forks.y += 0.1"
+  },
+  "engine": {
+    "speedMps": 1.4
+  }
+}

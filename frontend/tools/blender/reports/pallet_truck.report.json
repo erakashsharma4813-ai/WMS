@@ -1,0 +1,45 @@
+{
+  "id": "pallet_truck",
+  "version": 2,
+  "glb": "public/models/pallet_truck.glb",
+  "glbBytes": 65724,
+  "triangles": 1568,
+  "maxTriangles": 5000,
+  "materials": [
+    "beacon",
+    "glass",
+    "graphite",
+    "hazard_yellow",
+    "livery",
+    "steel",
+    "tyre"
+  ],
+  "nodes": [
+    "beacon",
+    "beacon__beacon",
+    "forks",
+    "forks__graphite",
+    "forks__steel",
+    "load_socket",
+    "pallet_truck",
+    "root__glass",
+    "root__graphite",
+    "root__hazard_yellow",
+    "root__livery",
+    "tiller",
+    "tiller__graphite",
+    "tiller__hazard_yellow",
+    "wheel_drive",
+    "wheel_drive__graphite",
+    "wheel_drive__steel",
+    "wheel_drive__tyre"
+  ],
+  "sizeMetres": {
+    "x": 2.25,
+    "y": 1.29,
+    "z": 0.81
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/pallet_truck.png"
+}

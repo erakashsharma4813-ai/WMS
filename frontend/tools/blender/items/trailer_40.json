@@ -1,0 +1,38 @@
+{
+  "id": "trailer_40",
+  "family": "truck",
+  "version": 2,
+  "notes": "40 ft ribbed box trailer; origin at the kingpin; tri-axle duals at -7.6 / -8.8 / -10.0 m (middle axle = TRAILER_AXLE_FROM_KINGPIN); landing gear at -2.4 m so it clears the tractor.",
+  "reference": "12.2 m box, 1.25 m deck, axle spread 1.2 m, landing gear about 2.4 m behind the kingpin",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/trailer_40.glb",
+  "budget": {
+    "class": "Large vehicle",
+    "maxTriangles": 8000,
+    "maxMaterials": 10
+  },
+  "parts": [
+    "shell_node",
+    "door_l",
+    "door_r",
+    "wheel_0_l",
+    "wheel_0_r",
+    "wheel_1_l",
+    "wheel_1_r",
+    "wheel_2_l",
+    "wheel_2_r"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "livery",
+    "shell"
+  ],
+  "states": {
+    "moving": "wheel_* spin; heading from kingpin to axle point",
+    "docked": "doors open, shell ghosts"
+  },
+  "engine": {
+    "lengthMetres": 12.2,
+    "deckHeightMetres": 1.25
+  }
+}

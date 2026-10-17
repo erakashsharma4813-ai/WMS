@@ -1,0 +1,27 @@
+{
+  "id": "pallet_full",
+  "family": "load",
+  "version": 1,
+  "notes": "Shrink-wrapped full pallet (1.2 x 0.8 m). Instanced; tint carries the shipment colour.",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/pallet_full.glb",
+  "budget": {
+    "class": "Small prop",
+    "maxTriangles": 500,
+    "maxMaterials": 4,
+    "note": "4 materials: a per-instance tint and a translucent wrap need their own materials; instanced, so each costs one draw call per batch"
+  },
+  "parts": [],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "tint",
+    "wrap"
+  ],
+  "states": {
+    "stored": "instanced in lanes, buffer and trailers"
+  },
+  "engine": {
+    "lengthMetres": 1.2,
+    "widthMetres": 0.8
+  }
+}

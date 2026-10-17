@@ -1,0 +1,38 @@
+{
+  "id": "barrier",
+  "version": 2,
+  "glb": "public/models/barrier.glb",
+  "glbBytes": 33232,
+  "triangles": 844,
+  "maxTriangles": 3000,
+  "materials": [
+    "concrete",
+    "graphite",
+    "hazard_yellow",
+    "lamp_red",
+    "red_white_r",
+    "red_white_w",
+    "steel"
+  ],
+  "nodes": [
+    "arm",
+    "arm__graphite",
+    "arm__lamp_red",
+    "arm__red_white_r",
+    "arm__red_white_w",
+    "arm__steel",
+    "barrier",
+    "root__concrete",
+    "root__graphite",
+    "root__hazard_yellow",
+    "root__steel"
+  ],
+  "sizeMetres": {
+    "x": 4.75,
+    "y": 1.09,
+    "z": 0.6
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/barrier.png"
+}

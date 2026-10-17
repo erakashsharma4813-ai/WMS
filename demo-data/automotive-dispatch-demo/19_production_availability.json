@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "business_date": "2026-10-13",
+  "description": "Synthetic production timing profiles used to release outbound pallets progressively instead of assuming all stock is available at shift start.",
+  "production_lines": [
+    { "line_id": "LINE-A", "product_group": "BRAKE-ASSEMBLY", "pallets_per_hour": 8 },
+    { "line_id": "LINE-B", "product_group": "STEERING-PARTS", "pallets_per_hour": 7 },
+    { "line_id": "LINE-C", "product_group": "SUSPENSION-KITS", "pallets_per_hour": 6 }
+  ],
+  "availability_profiles": [
+    {
+      "profile_id": "EARLY-STABLE",
+      "line_id": "LINE-A",
+      "first_batch_minutes_before_slot": 150,
+      "batch_interval_minutes": 38,
+      "batch_shares": [0.35, 0.35, 0.30],
+      "quality_release_minutes": 12
+    },
+    {
+      "profile_id": "NORMAL-WAVE",
+      "line_id": "LINE-B",
+      "first_batch_minutes_before_slot": 95,
+      "batch_interval_minutes": 52,
+      "batch_shares": [0.30, 0.35, 0.35],
+      "quality_release_minutes": 18
+    },
+    {
+      "profile_id": "LATE-RISK",
+      "line_id": "LINE-C",
+      "first_batch_minutes_before_slot": 45,
+      "batch_interval_minutes": 64,
+      "batch_shares": [0.25, 0.35, 0.40],
+      "quality_release_minutes": 24
+    }
+  ],
+  "shipment_profile_cycle": ["EARLY-STABLE", "NORMAL-WAVE", "LATE-RISK", "NORMAL-WAVE"],
+  "planned_exceptions": [
+    {
+      "line_id": "LINE-C",
+      "start": "2026-10-13T15:30:00+05:30",
+      "end": "2026-10-13T16:20:00+05:30",
+      "reason": "planned tooling change",
+      "affected_profile": "LATE-RISK"
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "schema_version": "1.0",
+  "site_id": "DEMO-PUNE-01",
+  "day_id": "DAY-2026-10-06",
+  "business_date": "2026-10-06",
+  "source": "Dummy SAP export shaped like VTTK/VTTP shipments and LIKP deliveries; gate report times from the gate log",
+  "classification": "synthetic_demo_data",
+  "shipments": [
+    {
+      "shipment": "0001004200",
+      "truck_code": "T01",
+      "vehicle": "KA 51 IR 2370",
+      "transporter": "Transporter B",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T06:27:00+05:30",
+      "deliveries": [
+        "80041200",
+        "80041203"
+      ]
+    },
+    {
+      "shipment": "0001004203",
+      "truck_code": "T02",
+      "vehicle": "MH 12 UH 1599",
+      "transporter": "Transporter D",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T07:57:00+05:30",
+      "deliveries": [
+        "80041207",
+        "80041210",
+        "80041213"
+      ]
+    },
+    {
+      "shipment": "0001004206",
+      "truck_code": "T03",
+      "vehicle": "MH 14 CE 4660",
+      "transporter": "Transporter F",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T08:34:00+05:30",
+      "deliveries": [
+        "80041214",
+        "80041217"
+      ]
+    },
+    {
+      "shipment": "0001004209",
+      "truck_code": "T04",
+      "vehicle": "MH 14 AF 8002",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T08:49:00+05:30",
+      "deliveries": [
+        "80041221",
+        "80041224"
+      ]
+    },
+    {
+      "shipment": "0001004212",
+      "truck_code": "T05",
+      "vehicle": "MH 14 TH 4726",
+      "transporter": "Transporter B",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T09:19:00+05:30",
+      "deliveries": [
+        "80041228",
+        "80041231",
+        "80041234"
+      ]
+    },
+    {
+      "shipment": "0001004215",
+      "truck_code": "T06",
+      "vehicle": "TS 07 VH 1723",
+      "transporter": "Transporter A",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T09:45:00+05:30",
+      "deliveries": [
+        "80041235",
+        "80041238"
+      ]
+    },
+    {
+      "shipment": "0001004218",
+      "truck_code": "T07",
+      "vehicle": "MH 42 UT 9706",
+      "transporter": "Transporter E",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T10:06:00+05:30",
+      "deliveries": [
+        "80041242",
+        "80041245"
+      ]
+    },
+    {
+      "shipment": "0001004221",
+      "truck_code": "T08",
+      "vehicle": "TS 07 JA 2640",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T10:19:00+05:30",
+      "deliveries": [
+        "80041249",
+        "80041252"
+      ]
+    },
+    {
+      "shipment": "0001004224",
+      "truck_code": "T09",
+      "vehicle": "MH 14 HM 9786",
+      "transporter": "Transporter D",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T11:03:00+05:30",
+      "deliveries": [
+        "80041256",
+        "80041259",
+        "80041262"
+      ]
+    },
+    {
+      "shipment": "0001004227",
+      "truck_code": "T10",
+      "vehicle": "MH 42 TP 5516",
+      "transporter": "Transporter E",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T11:06:00+05:30",
+      "deliveries": [
+        "80041263",
+        "80041266",
+        "80041269"
+      ]
+    },
+    {
+      "shipment": "0001004230",
+      "truck_code": "T11",
+      "vehicle": "TS 07 OR 4360",
+      "transporter": "Transporter A",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T11:50:00+05:30",
+      "deliveries": [
+        "80041270",
+        "80041273",
+        "80041276"
+      ]
+    },
+    {
+      "shipment": "0001004233",
+      "truck_code": "T12",
+      "vehicle": "TS 07 CY 2562",
+      "transporter": "Transporter B",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T12:00:00+05:30",
+      "deliveries": [
+        "80041277"
+      ]
+    },
+    {
+      "shipment": "0001004236",
+      "truck_code": "T13",
+      "vehicle": "TS 07 PH 9091",
+      "transporter": "Transporter A",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T12:32:00+05:30",
+      "deliveries": [
+        "80041284",
+        "80041287"
+      ]
+    },
+    {
+      "shipment": "0001004239",
+      "truck_code": "T14",
+      "vehicle": "MH 14 QX 6383",
+      "transporter": "Transporter D",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T12:49:00+05:30",
+      "deliveries": [
+        "80041291",
+        "80041294",
+        "80041297"
+      ]
+    },
+    {
+      "shipment": "0001004242",
+      "truck_code": "T15",
+      "vehicle": "TS 07 XW 8127",
+      "transporter": "Transporter A",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T13:28:00+05:30",
+      "deliveries": [
+        "80041298"
+      ]
+    },
+    {
+      "shipment": "0001004245",
+      "truck_code": "T16",
+      "vehicle": "MH 42 YM 1008",
+      "transporter": "Transporter B",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T13:43:00+05:30",
+      "deliveries": [
+        "80041305",
+        "80041308",
+        "80041311"
+      ]
+    },
+    {
+      "shipment": "0001004248",
+      "truck_code": "T17",
+      "vehicle": "MH 14 XO 1876",
+      "transporter": "Transporter C",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T13:46:00+05:30",
+      "deliveries": [
+        "80041312",
+        "80041315",
+        "80041318"
+      ]
+    },
+    {
+      "shipment": "0001004251",
+      "truck_code": "T18",
+      "vehicle": "MH 14 VF 7399",
+      "transporter": "Transporter F",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T14:25:00+05:30",
+      "deliveries": [
+        "80041319",
+        "80041322",
+        "80041325"
+      ]
+    },
+    {
+      "shipment": "0001004254",
+      "truck_code": "T19",
+      "vehicle": "MH 12 PY 5966",
+      "transporter": "Transporter A",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T14:31:00+05:30",
+      "deliveries": [
+        "80041326"
+      ]
+    },
+    {
+      "shipment": "0001004257",
+      "truck_code": "T20",
+      "vehicle": "MH 14 PF 3884",
+      "transporter": "Transporter A",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T14:33:00+05:30",
+      "deliveries": [
+        "80041333",
+        "80041336"
+      ]
+    },
+    {
+      "shipment": "0001004260",
+      "truck_code": "T21",
+      "vehicle": "MH 42 JB 4278",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T14:42:00+05:30",
+      "deliveries": [
+        "80041340",
+        "80041343",
+        "80041346"
+      ]
+    },
+    {
+      "shipment": "0001004263",
+      "truck_code": "T22",
+      "vehicle": "MH 42 QT 3241",
+      "transporter": "Transporter C",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T15:37:00+05:30",
+      "deliveries": [
+        "80041347",
+        "80041350",
+        "80041353"
+      ]
+    },
+    {
+      "shipment": "0001004266",
+      "truck_code": "T23",
+      "vehicle": "TS 07 BC 2245",
+      "transporter": "Transporter E",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T15:38:00+05:30",
+      "deliveries": [
+        "80041354"
+      ]
+    },
+    {
+      "shipment": "0001004269",
+      "truck_code": "T24",
+      "vehicle": "MH 14 CE 3835",
+      "transporter": "Transporter F",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T15:41:00+05:30",
+      "deliveries": [
+        "80041361",
+        "80041364",
+        "80041367"
+      ]
+    },
+    {
+      "shipment": "0001004272",
+      "truck_code": "T25",
+      "vehicle": "KA 51 HB 6204",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T15:43:00+05:30",
+      "deliveries": [
+        "80041368"
+      ]
+    },
+    {
+      "shipment": "0001004275",
+      "truck_code": "T26",
+      "vehicle": "GJ 05 NP 8878",
+      "transporter": "Transporter D",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T15:50:00+05:30",
+      "deliveries": [
+        "80041375",
+        "80041378"
+      ]
+    },
+    {
+      "shipment": "0001004278",
+      "truck_code": "T27",
+      "vehicle": "MH 12 RT 4026",
+      "transporter": "Transporter C",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T15:55:00+05:30",
+      "deliveries": [
+        "80041382",
+        "80041385"
+      ]
+    },
+    {
+      "shipment": "0001004281",
+      "truck_code": "T28",
+      "vehicle": "MH 42 DE 1634",
+      "transporter": "Transporter C",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T16:01:00+05:30",
+      "deliveries": [
+        "80041389",
+        "80041392"
+      ]
+    },
+    {
+      "shipment": "0001004284",
+      "truck_code": "T29",
+      "vehicle": "MH 14 EF 7109",
+      "transporter": "Transporter E",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T16:08:00+05:30",
+      "deliveries": [
+        "80041396",
+        "80041399"
+      ]
+    },
+    {
+      "shipment": "0001004287",
+      "truck_code": "T30",
+      "vehicle": "TS 07 CF 9421",
+      "transporter": "Transporter F",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T16:14:00+05:30",
+      "deliveries": [
+        "80041403"
+      ]
+    },
+    {
+      "shipment": "0001004290",
+      "truck_code": "T31",
+      "vehicle": "MH 42 EH 9919",
+      "transporter": "Transporter D",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T16:17:00+05:30",
+      "deliveries": [
+        "80041410",
+        "80041413",
+        "80041416"
+      ]
+    },
+    {
+      "shipment": "0001004293",
+      "truck_code": "T32",
+      "vehicle": "MH 42 ZM 5681",
+      "transporter": "Transporter E",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T16:29:00+05:30",
+      "deliveries": [
+        "80041417"
+      ]
+    },
+    {
+      "shipment": "0001004296",
+      "truck_code": "T33",
+      "vehicle": "MH 12 FZ 1888",
+      "transporter": "Transporter C",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T16:31:00+05:30",
+      "deliveries": [
+        "80041424",
+        "80041427",
+        "80041430"
+      ]
+    },
+    {
+      "shipment": "0001004299",
+      "truck_code": "T34",
+      "vehicle": "MH 14 DA 1110",
+      "transporter": "Transporter E",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T16:52:00+05:30",
+      "deliveries": [
+        "80041431"
+      ]
+    },
+    {
+      "shipment": "0001004302",
+      "truck_code": "T35",
+      "vehicle": "MH 12 BP 4413",
+      "transporter": "Transporter A",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T16:58:00+05:30",
+      "deliveries": [
+        "80041438",
+        "80041441"
+      ]
+    },
+    {
+      "shipment": "0001004305",
+      "truck_code": "T36",
+      "vehicle": "KA 51 IM 5978",
+      "transporter": "Transporter F",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T17:10:00+05:30",
+      "deliveries": [
+        "80041445",
+        "80041448"
+      ]
+    },
+    {
+      "shipment": "0001004308",
+      "truck_code": "T37",
+      "vehicle": "GJ 05 LD 8170",
+      "transporter": "Transporter E",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T17:19:00+05:30",
+      "deliveries": [
+        "80041452",
+        "80041455"
+      ]
+    },
+    {
+      "shipment": "0001004311",
+      "truck_code": "T38",
+      "vehicle": "GJ 05 IT 2155",
+      "transporter": "Transporter E",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T17:25:00+05:30",
+      "deliveries": [
+        "80041459",
+        "80041462"
+      ]
+    },
+    {
+      "shipment": "0001004314",
+      "truck_code": "T39",
+      "vehicle": "TS 07 ND 5561",
+      "transporter": "Transporter D",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T17:27:00+05:30",
+      "deliveries": [
+        "80041466",
+        "80041469",
+        "80041472"
+      ]
+    },
+    {
+      "shipment": "0001004317",
+      "truck_code": "T40",
+      "vehicle": "TS 07 PS 4529",
+      "transporter": "Transporter C",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T17:30:00+05:30",
+      "deliveries": [
+        "80041473",
+        "80041476"
+      ]
+    },
+    {
+      "shipment": "0001004320",
+      "truck_code": "T41",
+      "vehicle": "TS 07 WA 5931",
+      "transporter": "Transporter B",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T17:31:00+05:30",
+      "deliveries": [
+        "80041480",
+        "80041483",
+        "80041486"
+      ]
+    },
+    {
+      "shipment": "0001004323",
+      "truck_code": "T42",
+      "vehicle": "TS 07 YP 8998",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T17:33:00+05:30",
+      "deliveries": [
+        "80041487"
+      ]
+    },
+    {
+      "shipment": "0001004326",
+      "truck_code": "T43",
+      "vehicle": "GJ 05 GJ 2202",
+      "transporter": "Transporter C",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T17:45:00+05:30",
+      "deliveries": [
+        "80041494",
+        "80041497",
+        "80041500"
+      ]
+    },
+    {
+      "shipment": "0001004329",
+      "truck_code": "T44",
+      "vehicle": "MH 14 LV 2637",
+      "transporter": "Transporter E",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T17:45:00+05:30",
+      "deliveries": [
+        "80041501",
+        "80041504",
+        "80041507"
+      ]
+    },
+    {
+      "shipment": "0001004332",
+      "truck_code": "T45",
+      "vehicle": "KA 51 UG 1305",
+      "transporter": "Transporter D",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T18:12:00+05:30",
+      "deliveries": [
+        "80041508",
+        "80041511",
+        "80041514"
+      ]
+    },
+    {
+      "shipment": "0001004335",
+      "truck_code": "T46",
+      "vehicle": "KA 51 VO 5570",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T18:19:00+05:30",
+      "deliveries": [
+        "80041515"
+      ]
+    },
+    {
+      "shipment": "0001004338",
+      "truck_code": "T47",
+      "vehicle": "TS 07 KZ 9042",
+      "transporter": "Transporter D",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T18:22:00+05:30",
+      "deliveries": [
+        "80041522",
+        "80041525"
+      ]
+    },
+    {
+      "shipment": "0001004341",
+      "truck_code": "T48",
+      "vehicle": "MH 12 ZY 2385",
+      "transporter": "Transporter D",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T18:36:00+05:30",
+      "deliveries": [
+        "80041529",
+        "80041532",
+        "80041535"
+      ]
+    },
+    {
+      "shipment": "0001004344",
+      "truck_code": "T49",
+      "vehicle": "MH 12 CL 5965",
+      "transporter": "Transporter A",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T18:49:00+05:30",
+      "deliveries": [
+        "80041536"
+      ]
+    },
+    {
+      "shipment": "0001004347",
+      "truck_code": "T50",
+      "vehicle": "KA 51 OJ 2635",
+      "transporter": "Transporter A",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T18:53:00+05:30",
+      "deliveries": [
+        "80041543",
+        "80041546",
+        "80041549"
+      ]
+    },
+    {
+      "shipment": "0001004350",
+      "truck_code": "T51",
+      "vehicle": "GJ 05 NX 4456",
+      "transporter": "Transporter C",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T18:54:00+05:30",
+      "deliveries": [
+        "80041550",
+        "80041553"
+      ]
+    },
+    {
+      "shipment": "0001004353",
+      "truck_code": "T52",
+      "vehicle": "MH 42 HJ 5409",
+      "transporter": "Transporter B",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T18:56:00+05:30",
+      "deliveries": [
+        "80041557",
+        "80041560",
+        "80041563"
+      ]
+    },
+    {
+      "shipment": "0001004356",
+      "truck_code": "T53",
+      "vehicle": "MH 12 JB 5860",
+      "transporter": "Transporter D",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T19:08:00+05:30",
+      "deliveries": [
+        "80041564",
+        "80041567"
+      ]
+    },
+    {
+      "shipment": "0001004359",
+      "truck_code": "T54",
+      "vehicle": "KA 51 GY 8025",
+      "transporter": "Transporter A",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T19:08:00+05:30",
+      "deliveries": [
+        "80041571"
+      ]
+    },
+    {
+      "shipment": "0001004362",
+      "truck_code": "T55",
+      "vehicle": "MH 12 QE 5037",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T19:09:00+05:30",
+      "deliveries": [
+        "80041578",
+        "80041581"
+      ]
+    },
+    {
+      "shipment": "0001004365",
+      "truck_code": "T56",
+      "vehicle": "GJ 05 MC 7749",
+      "transporter": "Transporter F",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T19:21:00+05:30",
+      "deliveries": [
+        "80041585",
+        "80041588",
+        "80041591"
+      ]
+    },
+    {
+      "shipment": "0001004368",
+      "truck_code": "T57",
+      "vehicle": "MH 12 VT 2838",
+      "transporter": "Transporter B",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T19:21:00+05:30",
+      "deliveries": [
+        "80041592",
+        "80041595",
+        "80041598"
+      ]
+    },
+    {
+      "shipment": "0001004371",
+      "truck_code": "T58",
+      "vehicle": "MH 14 RX 6384",
+      "transporter": "Transporter D",
+      "truck_type": "20 ft",
+      "pallets": 12,
+      "reported_at": "2026-10-06T19:31:00+05:30",
+      "deliveries": [
+        "80041599"
+      ]
+    },
+    {
+      "shipment": "0001004374",
+      "truck_code": "T59",
+      "vehicle": "MH 42 BW 4633",
+      "transporter": "Transporter C",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T20:26:00+05:30",
+      "deliveries": [
+        "80041606",
+        "80041609"
+      ]
+    },
+    {
+      "shipment": "0001004377",
+      "truck_code": "T60",
+      "vehicle": "MH 42 GO 6745",
+      "transporter": "Transporter A",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T20:54:00+05:30",
+      "deliveries": [
+        "80041613",
+        "80041616"
+      ]
+    },
+    {
+      "shipment": "0001004380",
+      "truck_code": "T61",
+      "vehicle": "MH 42 VY 2641",
+      "transporter": "Transporter F",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T20:56:00+05:30",
+      "deliveries": [
+        "80041620",
+        "80041623"
+      ]
+    },
+    {
+      "shipment": "0001004383",
+      "truck_code": "T62",
+      "vehicle": "MH 42 IQ 1159",
+      "transporter": "Transporter C",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T21:02:00+05:30",
+      "deliveries": [
+        "80041627",
+        "80041630",
+        "80041633"
+      ]
+    },
+    {
+      "shipment": "0001004386",
+      "truck_code": "T63",
+      "vehicle": "MH 14 TS 9971",
+      "transporter": "Transporter C",
+      "truck_type": "32 ft",
+      "pallets": 22,
+      "reported_at": "2026-10-06T21:31:00+05:30",
+      "deliveries": [
+        "80041634",
+        "80041637",
+        "80041640"
+      ]
+    },
+    {
+      "shipment": "0001004389",
+      "truck_code": "T64",
+      "vehicle": "KA 51 ID 5285",
+      "transporter": "Transporter F",
+      "truck_type": "17 ft",
+      "pallets": 8,
+      "reported_at": "2026-10-06T22:46:00+05:30",
+      "deliveries": [
+        "80041641",
+        "80041644"
+      ]
+    }
+  ]
+}

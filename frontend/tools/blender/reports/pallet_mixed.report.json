@@ -1,0 +1,27 @@
+{
+  "id": "pallet_mixed",
+  "version": 1,
+  "glb": "public/models/pallet_mixed.glb",
+  "glbBytes": 15764,
+  "triangles": 240,
+  "maxTriangles": 500,
+  "materials": [
+    "kraft",
+    "tint",
+    "wood"
+  ],
+  "nodes": [
+    "pallet_mixed",
+    "root__kraft",
+    "root__tint",
+    "root__wood"
+  ],
+  "sizeMetres": {
+    "x": 1.2,
+    "y": 0.9,
+    "z": 0.8
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/pallet_mixed.png"
+}

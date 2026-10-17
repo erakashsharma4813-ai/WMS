@@ -1,0 +1,39 @@
+{
+  "id": "gatehouse",
+  "version": 2,
+  "glb": "public/models/gatehouse.glb",
+  "glbBytes": 62080,
+  "triangles": 1892,
+  "maxTriangles": 3000,
+  "materials": [
+    "canopy",
+    "concrete",
+    "door",
+    "glass",
+    "graphite",
+    "hazard_yellow",
+    "lamp_white",
+    "steel",
+    "wall_panel"
+  ],
+  "nodes": [
+    "gatehouse",
+    "root__canopy",
+    "root__concrete",
+    "root__door",
+    "root__glass",
+    "root__graphite",
+    "root__hazard_yellow",
+    "root__lamp_white",
+    "root__steel",
+    "root__wall_panel"
+  ],
+  "sizeMetres": {
+    "x": 6.32,
+    "y": 5.88,
+    "z": 10.12
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/gatehouse.png"
+}

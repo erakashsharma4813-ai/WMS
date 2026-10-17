@@ -1,0 +1,50 @@
+{
+  "id": "dock_station",
+  "version": 2,
+  "glb": "public/models/dock_station.glb",
+  "glbBytes": 95628,
+  "triangles": 2516,
+  "maxTriangles": 3000,
+  "materials": [
+    "concrete",
+    "door",
+    "foam",
+    "glass",
+    "hazard_yellow",
+    "lamp_white",
+    "signal_green",
+    "signal_red",
+    "steel",
+    "wall_panel"
+  ],
+  "nodes": [
+    "dock_station",
+    "door",
+    "door__door",
+    "door__foam",
+    "door__glass",
+    "leveller",
+    "leveller__hazard_yellow",
+    "leveller__steel",
+    "root__concrete",
+    "root__door",
+    "root__foam",
+    "root__hazard_yellow",
+    "root__lamp_white",
+    "root__signal_red",
+    "root__steel",
+    "root__wall_panel",
+    "signal_green",
+    "signal_green__signal_green",
+    "signal_red",
+    "signal_red__signal_red"
+  ],
+  "sizeMetres": {
+    "x": 5.4,
+    "y": 5.9,
+    "z": 6.52
+  },
+  "budgetPass": true,
+  "problems": [],
+  "render": "reviews/dock_station.png"
+}

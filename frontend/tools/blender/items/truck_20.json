@@ -1,0 +1,44 @@
+{
+  "id": "truck_20",
+  "family": "truck",
+  "version": 2,
+  "notes": "20 ft rigid box truck, medium-duty day cab (cab-over, raked windscreen), single dual-tyre drive axle; also drawn at 86% scale as the 17 ft LCV.",
+  "reference": "Tata LPT/Ultra-class 4x2: 2.3 m cab, front overhang 1.2 m, tyres 0.96 m diameter, deck 1.2 m, box 2.5 x 2.6 m",
+  "options": [
+    "opt_visor",
+    "opt_lamps",
+    "opt_horns",
+    "opt_deflector"
+  ],
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/truck_20.glb",
+  "budget": {
+    "class": "Large vehicle",
+    "maxTriangles": 8000,
+    "maxMaterials": 10
+  },
+  "parts": [
+    "shell_node",
+    "door_l",
+    "door_r",
+    "wheel_f_l",
+    "wheel_f_r",
+    "wheel_r0_l",
+    "wheel_r0_r"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "livery",
+    "shell"
+  ],
+  "states": {
+    "idle": "wheels still",
+    "moving": "wheel_* spin from distance / radius",
+    "docked": "door_l/door_r swing open 265 degrees; shell material ghosts to show the load",
+    "blocked": "status ring red; reason in label"
+  },
+  "engine": {
+    "lengthMetres": 8.6,
+    "deckHeightMetres": 1.2
+  }
+}

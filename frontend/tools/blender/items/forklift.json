@@ -1,0 +1,49 @@
+{
+  "id": "forklift",
+  "family": "warehouse-vehicle",
+  "version": 2,
+  "notes": "Counterbalance forklift for truck loading: drive axle outboard of the mast, counterweight over the steer axle, raked guard posts; electric by default, LPG bottle and rain roof as options.",
+  "reference": "Toyota 8-series 1.5-2.5 t: 1.15 m wide, guard 2.14 m, front tyres 0.66 m, rear 0.52 m, forks 1.15 m",
+  "options": [
+    "opt_lpg",
+    "opt_roof"
+  ],
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/forklift.glb",
+  "budget": {
+    "class": "Vehicle",
+    "maxTriangles": 5000,
+    "maxMaterials": 8
+  },
+  "parts": [
+    "tilt",
+    "mast_outer",
+    "mast_inner",
+    "carriage",
+    "beacon",
+    "wheel_f_l",
+    "wheel_f_r",
+    "wheel_b_l",
+    "wheel_b_r"
+  ],
+  "sockets": [
+    "load_socket"
+  ],
+  "perInstanceMaterials": [
+    "livery",
+    "beacon"
+  ],
+  "states": {
+    "moving": "wheels spin, beacon pulses",
+    "lifting": "carriage.y = lift; mast_inner.y = clamp(lift - 1.1, 0, 2.3)",
+    "loaded": "tilt.rotation.z = 0.06 while moving",
+    "blocked": "status ring red",
+    "idle": "paint and options picked per unit (track.color, pickOptions)"
+  },
+  "engine": {
+    "speedMps": 2.6,
+    "loadedSpeedMps": 2.0,
+    "pickupSeconds": 45,
+    "dropSeconds": 40
+  }
+}

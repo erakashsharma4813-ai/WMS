@@ -1,0 +1,31 @@
+{
+  "id": "worker",
+  "family": "person",
+  "version": 1,
+  "notes": "Warehouse worker for loading gangs, gate security and pickers. Illustrative: people are not simulated resources yet. Hard hat colour is per instance (yellow loaders, white supervisor, blue security).",
+  "build": "tools/blender/build_equipment.py",
+  "glb": "public/models/worker.glb",
+  "budget": {
+    "class": "Person",
+    "maxTriangles": 800,
+    "maxMaterials": 6
+  },
+  "parts": [
+    "leg_l",
+    "leg_r",
+    "arm_l",
+    "arm_r"
+  ],
+  "sockets": [],
+  "perInstanceMaterials": [
+    "tint"
+  ],
+  "states": {
+    "walking": "legs and arms swing about local Z",
+    "working": "arms move at the dock while a truck loads",
+    "idle": "small sway"
+  },
+  "engine": {
+    "walkSpeedMps": 1.3
+  }
+}
